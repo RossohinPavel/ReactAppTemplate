@@ -1,7 +1,10 @@
 {
   "name": "react-app-template",
+  "description": "This is a template for create some react app",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
