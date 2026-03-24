@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-function App() {
-  const [count, setCount] = useState(0)
+
+export const App = () => {
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -107,7 +108,5 @@ function App() {
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>
-  )
-}
-
-export default App
+  );
+};
