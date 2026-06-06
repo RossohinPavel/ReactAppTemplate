@@ -12,6 +12,17 @@
       "withTest": false,
       "withStory": false,
       "withLazy": false
+    },
+    "context": {
+      "path": "src/contexts",
+      "withLazy": false,
+      "withStory": false,
+      "withStyle": false,
+      "withTest": false,
+      "flat": true,
+      "customTemplates": {
+        "component": "templates/context/TemplateName.tsx"
+      } 
     }
   },
   "usesCssModule": true,
