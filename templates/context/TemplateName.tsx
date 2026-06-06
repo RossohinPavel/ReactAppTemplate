@@ -13,11 +13,11 @@ export const useTemplateNameContext = () => {
   return context;
 };
 
-interface TemplateNameProviderProps {
+interface TemplateNameContextProviderProps {
   children?: React.ReactNode;
 }
 
-export function TemplateNameProvider(props: TemplateNameProviderProps) {
+export function TemplateNameContextProvider(props: TemplateNameContextProviderProps) {
   const { children } = props;
 
   const value: TemplateNameContext = {};
