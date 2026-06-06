@@ -19,9 +19,14 @@
       "withStory": false,
       "withStyle": false,
       "withTest": false,
-      "flat": true,
+      "withIndex": true,
+      "withContext": true,
+      "withHelper": true,
       "customTemplates": {
-        "component": "templates/context/TemplateName.tsx"
+        "component": "templates/context/provider.tsx",
+        "index": "templates/context/index.ts",
+        "context": "templates/context/context.ts",
+        "helper": "templates/context/helper.ts"
       } 
     }
   },
