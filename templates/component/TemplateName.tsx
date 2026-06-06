@@ -7,8 +7,8 @@ export function TemplateName(props: TemplateNameProps) {
   const { } = props;
 
   return (
-    <div className={styles.MyComponent}>
-      MyComponent Component
+    <div className={styles["template-name"]}>
+      TemplateName Component
     </div>
   );
 }
